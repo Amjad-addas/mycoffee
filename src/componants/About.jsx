@@ -4,7 +4,7 @@ import React from 'react'
 import ArrowRightIcon from '@mui/icons-material/ArrowRight';
 import ErrorOutlineIcon from '@mui/icons-material/ErrorOutline';
 import { makeStyles } from '@mui/styles';
-import { BorderColor } from '@mui/icons-material';
+
 const aboutStyle = makeStyles({
     boxabout:{
         backgroundColor:"antiquewhite",

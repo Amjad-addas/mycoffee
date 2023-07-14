@@ -1,6 +1,6 @@
 import React from 'react'
 import { ProductCard } from './ProductCard'
-import Product from './Product'
+
 import { Box, Stack, Typography } from '@mui/material'
 import { makeStyles } from '@mui/styles'
 import pro1 from "./img/pro1.jpg"

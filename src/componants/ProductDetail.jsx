@@ -2,7 +2,7 @@ import { Box, Card, Stack, Typography } from '@mui/material'
 import React from 'react'
 import pro1 from './img/pro1.jpg'
 
-import ErrorOutlineIcon from '@mui/icons-material/ErrorOutline';
+
 import { makeStyles } from '@mui/styles';
 import StarIcon from '@mui/icons-material/Star';
 import LinkButton from './LinkButton';

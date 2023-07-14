@@ -157,7 +157,7 @@ export default function Navbar() {
       left:"160px"
   }}>
       <ListItem  className={classes.itemeList}>
-       <Link href='/'  color={'#fff'}>
+       <Link href=''  color={'#fff'}>
         home
        </Link>
       </ListItem>

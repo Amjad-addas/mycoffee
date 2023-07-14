@@ -3,7 +3,7 @@ import React from 'react'
 import Input from './Input'
 import LinkButton from './LinkButton'
 import { Box, Stack, Typography } from '@mui/material'
-import Check from './Check'
+
 const SignUpStyle = makeStyles({
     boxproducts:{
         backgroundColor:"antiquewhite",
