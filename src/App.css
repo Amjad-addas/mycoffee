@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+}
+#nav-links{
+  display: flex;
+  justify-content: space-between;
+}
+.dash{
+  display: none;
+}
+@keyframes animation {
+  0% {opacity: 1;}
+
+  100% {opacity: 0;}
+}
+@media (max-width: 768px) {
+  #productStack{
+    padding: 0;
+  }#container{
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }#imgCard{
+    width: 100%;
+    box-shadow: none;
+    padding: 1.25rem;
+  }#cont{
+    width: 100%;
+  }#about{
+    font-size: 1.5rem;
+  }
+}
+/* Medium */
+@media (max-width: 992px) {
+    .dash{
+      display: flex;
+    }
+    .links{
+      display: none;
+    }
+    #item{
+      position: static;
+    }
+    #items{
+      position: static;
+    }
+    #sublink{
+      position: static;
+      flex-direction: column;
+    }#nav-links{
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      width: 100%;
+      left: 0;
+      top: 55px;
+    
+      background-color: #5A020Cce;
+    }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none !important;
+  list-style: none !important;
+  font-family:'Roboto' !important;
+  
+}
+
+a{
+  text-decoration: none !important;
+  list-style: none !important;
+  font-family:'Roboto' !important;
+}
+
+*:hover{
+  text-decoration: none;
+}
+
+.animate{
+  animation: animation 1s infinite ;
+
+}
