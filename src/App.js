@@ -1,7 +1,7 @@
 import { Feed } from './componants/Feed';
 import './App.css';
 import Navbar from './componants/Navbar'
-import {BrowserRouter , Routes, Route}  from "react-router-dom";
+import {BrowserRouter , Routes, Route, HashRouter}  from "react-router-dom";
 import { Box } from '@mui/material';
 import  Coffee  from './componants/Coffee';
 import About from './componants/About';
@@ -14,12 +14,12 @@ import Profile from './componants/Profile';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter basename='/mycoffee'>
      <Navbar/>
 
    <Box>
         <Routes>
-          <Route path="/" element={<Feed/>} />
+          <Route exact path="/mycoffee" element={<Feed/>} />
           <Route path="/coffee" element={<Coffee/>} />
           <Route path="/about" element={<About/>} />
           <Route path="/product-detail" element={<ProductDetail/>} />
@@ -30,7 +30,7 @@ function App() {
         </Routes>
   </Box>
 
-    </BrowserRouter>
+    </HashRouter>
        
         
    
