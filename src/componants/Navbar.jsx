@@ -157,7 +157,7 @@ export default function Navbar() {
       left:"160px"
   }}>
       <ListItem  className={classes.itemeList}>
-       <Link href=''  color={'#fff'}>
+       <Link href='#/'  color={'#fff'}>
         home
        </Link>
       </ListItem>
@@ -170,15 +170,15 @@ export default function Navbar() {
        <ArrowDropDown/>
  
         <Box id='items' sx={{height:"100px" , backgroundColor:"#fff"}} className= {`${open?classes.dropActive:classes.dropJoin }`}>
-            <Link  href='signin' variant='a' className={classes.dropLink}> sign in</Link>
-            <Link href='signup' variant='a' className={classes.dropLink}>sign up</Link>
-            <Link href='profile' variant='a'className={classes.dropLink}>profile</Link>
+            <Link  href='#/signin' variant='a' className={classes.dropLink}> sign in</Link>
+            <Link href='#/signup' variant='a' className={classes.dropLink}>sign up</Link>
+            <Link href='#/profile' variant='a'className={classes.dropLink}>profile</Link>
         </Box>
 
 
       </ListItem>
       <ListItem className={classes.itemeList}>
-      <Link href='/coffee' color={'#fff'}>
+      <Link href='/#/coffee' color={'#fff'}>
         coffee
         </Link>
       </ListItem>
@@ -190,16 +190,16 @@ export default function Navbar() {
         product
         <ArrowDropDown/>
         <Box id='item' className= { `r ${openP?classes.dropActive:classes.dropJoin}`} sx={{backgroundColor:"#fff", height:"200px"}}>
-            <Link href='product-detail' variant='a' className={classes.dropLink}> coffee americano</Link>
-            <Link href='product-detail' variant='a'className={classes.dropLink}>cafee latte</Link>
-            <Link href='product-detail' variant='a'className={classes.dropLink}>cappuccino</Link>
-            <Link href='product-detail' variant='a'className={classes.dropLink}>espresso</Link>
-            <Link  href='all-products'    variant='a'className={classes.dropLink}>all product</Link>
+            <Link href='#/product-detail' variant='a' className={classes.dropLink}> coffee americano</Link>
+            <Link href='#/product-detail' variant='a'className={classes.dropLink}>cafee latte</Link>
+            <Link href='#/product-detail' variant='a'className={classes.dropLink}>cappuccino</Link>
+            <Link href='#/product-detail' variant='a'className={classes.dropLink}>espresso</Link>
+            <Link  href='#/all-products'    variant='a'className={classes.dropLink}>all product</Link>
         </Box>
         </Link>
       </ListItem >
       <ListItem className={classes.itemeList}>
-      <Link href='about' variant='a'color={'#fff'}>
+      <Link href='#/about' variant='a'color={'#fff'}>
         about
         </Link>
       </ListItem>
